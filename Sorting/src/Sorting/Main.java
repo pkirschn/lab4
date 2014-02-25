@@ -23,6 +23,12 @@ public class Main {
 		System.out.println("Sorted Array:");
 		//TODO: sort the array and print out its contents
 		
+		int[] results = InsertionSort.insertionSort(unsortedArray); 
+		
+		for (int i : results) {
+			System.out.print(i + " "); 
+		}
+		System.out.println(); 
 		
 	}
 
